@@ -1,0 +1,67 @@
+*
+{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #FCF5ED, #F4BF96);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gif {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out; /* Added a simple transform animation */
+}
+
+.gif:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #1F1717;
+    margin: 15px 0;
+}
+.btn-group {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+button {
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #CE5A67;
+    font-size: 1.2em;
+    
+}
+button:nth-child(1) {
+    margin-left: -200px;
+    background: #CE5A67;
+}
+button:nth-child(2) {
+    margin-right: -200px;
+    background: white;
+    color: #CE5A67;
+}
